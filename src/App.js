@@ -1,7 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import React, { useState, useEffect } from 'react';
 
 function App() {
+  // Similar to componentDidMount and componentDidUpdate:
+  useEffect(() => {
+    // Update the document title using the browser API
+    // document.title = `You clicked ${count} times`;
+  });
   return (
     <div className="App">
       <header className="App-header">
